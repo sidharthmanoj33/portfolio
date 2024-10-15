@@ -1,0 +1,194 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto", system-ui ;
+  }
+  img{
+    width: 200px;
+  }
+  #container{
+    width: 100%;
+    position:relative;
+    height:100vh;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+  .list_item{
+   display: inline; 
+    margin: 0 20px;
+  }
+  links{
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+}
+.links:hover{
+  color: red;
+  text-decoration: none;
+}
+#home_content{
+  margin: 13% 0 0 8%;
+}
+#uname{
+  font-size: 50px;
+  font-family: "Old Standard TT", serif;
+  margin-bottom: 25px;
+}
+#lname{
+  color: red;
+  font-family: "Dancing Script", system-ui;
+}
+.pdetails{
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.download{
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.home_images{
+  position: absolute;
+  width:40%;
+  height: 80%;
+  bottom: 30px;
+  right: 20px;
+}
+.group{
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  left: 0;
+  bottom:90px;
+  transition: left 2s,bottom 1s;
+
+}
+.home_images:hover #shape{
+  bottom: 20px;
+}
+.home_images:hover #man{
+  left: 20px;
+}
+#man{
+  transition:left 2ms;
+}
+.Aboutheading{
+  width:100%;
+  height: 50%;
+}
+#hd{
+  text-align: center;
+  font-size: 40px;
+  font-family:"Dancing Script", cursive;
+}
+#about{
+  margin:15% 8% 0% 8%;
+}
+.aboutimage>img{
+  width:500px;
+  margin-top: 20%;
+  margin-bottom: 100px;
+}
+.aboutcontent{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 50px;
+  margin-top: -100px;
+}
+.aboutbody{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.information{
+  margin-left: 550px;
+  margin-top: -100px;
+}
+.infobox>span{
+  margin-left: 10px;
+  font-size:25px;
+  font-style: oblique;
+}
+#skill{
+  margin:8% 8% 0 8%;
+}
+.mainhead{
+  text-align: center;
+  font-size: 40px;
+  font-family:"Dancing Script", cursive;
+}
+.skillimage>img{
+  width:500px;
+  height: 300px;
+  margin-left: 100px;
+}
+.skillbody{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 60px;
+      align-items: center;
+      gap: 2rem;
+}
+#myskill{
+  width: 100%;
+}
+
+.bar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  position:relative;
+  margin-bottom: 40px;
+}
+#bar-head,#bar-percentage{
+  font-size: 30px;
+  font-weight: bold;
+}
+.basebar{
+  background-color: black;
+  height: .25rem;
+  width: 100%;
+  position: absolute;
+  border-radius: .5rem;
+  bottom: 0;
+}
+.htmlbar{
+  background-color: blue;
+  width: 50%;
+}
+.cssbar{
+  background-color: blue;
+  width: 90%;
+}
+.btsbar{
+  background-color: blue;
+  width: 70%;
+}
+.htmlbar{
+  background-color: blue;
+  width: 50%;
+}
+.jsbar{
+  background-color: blue;
+  width: 90%;
+}
+#main-head{
+  text-align: center;
+  font-size: 40px;
+  font-family:"Dancing Script", cursive;
+}
+#head{
+  margin-top: 100px;
+}
+
+
